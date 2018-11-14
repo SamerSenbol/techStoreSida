@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    margin-bottom: 2em;
+    padding:0;
+    border: 2px solid;
+    font-weight: bold;
+    background-color: black;
+}
+.navbar-header a {
+    font-size: 2em;
+    color: white;
+}
+.brandContainer {
+    padding-left: 1em;
+}
+
+.shoppingCart {
+    display: flex;
+    flex-direction: row;
+    font-size:2em;
+}
+
+.shoppingCart a {
+    color: white;
+}
+
+.shoppingCart li {
+    padding-right: 0.5em;
+}
+
+.nav-container {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    width: 50%;
+}
+
+.front-page-container {
+    margin-top: 6.6em;
+}
+
+.buttonAddCart {
+    margin-bottom: 3em;
+    border-radius: 0.5em;
+    background-color: #5696f4;
+}
+.my-row {
+    background-color: #f6f6f4;
+}
+
+.my-col {
+    font-size: 0.7em;
+    margin-bottom: 5em;
+}
+.my-col p {
+    font-weight: bold;
+}
+.my-col h1 {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px){
+    .img {
+        width: 100%;
+    }
+    .my-col p {
+        font-size: 1.3em;
+    }
+    .buttonAddCart {
+        width: 60%;
+        font-size: 2em;
+    }
+    .my-row {
+        background-color: white;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .img {
+        width: 50%;
+    }
+    .my-col p {
+        font-size: 1.5em;
+    }
+    .my-col h1 {
+        font-size: 4em;
+    }
+    .my-row {
+        background: white;
+    }
+}
